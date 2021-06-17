@@ -15,6 +15,11 @@ public class Pelicula{
         this.categoria = categoria;
     }
     
+    public String motrarInfo(){
+        String retorno;
+        retorno = "id: "+ this.id +" nombre: "+ this.nombre+" año: "+ this.año+" categoria: "+ this.categoria;
+        return retorno;
+    }
 
     public String getNombre() {
         return nombre;
